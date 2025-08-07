@@ -61,6 +61,20 @@
           opacity: 0.8;
         }
       }
+      &.cta {
+        a {
+          font-weight: normal;
+          background: $secondary;
+          color: $primary;
+          border-radius: 4px;
+          padding: 6px 12px;
+          display: inline-block;
+          &:hover {
+            background-color: lighten($secondary, 10%);
+            opacity: 1;
+          }
+        }
+      }
     }
   }
 }

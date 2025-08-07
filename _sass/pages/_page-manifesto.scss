@@ -1,0 +1,37 @@
+.page-manifesto {
+  .scorecard-summary {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    .scorecard-image {
+      height: 100px;
+      width: 100px;
+      margin-right: 10px;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        width: 100px;
+      }
+    }
+    .scorecard-meta {
+      flex: 1;
+      h2 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: normal;
+      }
+      p {
+        color: $black;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+    .scorecard-content {
+      margin-top: 20px;
+      flex: 1 0 100%;
+    }
+  }
+}
+

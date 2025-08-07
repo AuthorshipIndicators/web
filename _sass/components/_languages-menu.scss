@@ -1,0 +1,29 @@
+.languages-menu {
+  margin-bottom: 20px;
+  text-align: right;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 0.875rem;
+    li {
+      margin-left: 10px;
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        color: $primary;
+        &.selected {
+          font-weight: bold;
+          text-decoration: underline;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

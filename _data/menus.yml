@@ -1,21 +1,19 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
-  - name: "About"
-    url: "/about/"
-    weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
-
-footer:
-  - name: "Home"
+  - name: "Manifesto"
     url: "/"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
+  - name: "Studies"
+    url: "/studies/"
+    weight: 90
+  - name: "Get Involved"
+    url: "/get-involved/"
+    weight: 99
+    class: cta
+
+footer:
+  - name: "Manifesto"
+    url: "/"
+    weight: 1
+  - name: "Get Involved"
+    url: "/get-involved/"
+    weight: 99

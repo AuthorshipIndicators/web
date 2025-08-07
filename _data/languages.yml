@@ -1,0 +1,10 @@
+- label: EN
+  url: "/"
+- label: FR
+  url: "/fr/"
+- label: DE
+  url: "/de/"
+- label: ES
+  url: "/es/"
+- label: IT
+  url: "/it/"
