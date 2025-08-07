@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" aria-label="favicon">
+  <defs>
+  <filter id="f-plate-3-700" filterUnits="userSpaceOnUse" x="-20" y="-20" width="240" height="240">
+    <feOffset in="SourceAlpha" dx="0" dy="2" result="off"/>
+    <feGaussianBlur in="off" stdDeviation="2" result="blur"/>
+    <feColorMatrix in="blur" type="matrix"
+      values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0.26 0" result="shadow"/>
+    <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="f-donut-3-700" filterUnits="userSpaceOnUse" x="-20" y="-20" width="240" height="240">
+    <feOffset in="SourceAlpha" dx="0" dy="2" result="off"/>
+    <feGaussianBlur in="off" stdDeviation="2" result="blur"/>
+    <feColorMatrix in="blur" type="matrix"
+      values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0.25 0" result="shadow"/>
+    <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+  <circle cx="100" cy="100" r="96" fill="#FFFFFF" opacity="0.14" filter="url(#f-plate-3-700)"/>
+
+  <g filter="url(#f-donut-3-700)">
+    <g transform="rotate(-90 100 100)">
+      <circle cx="100" cy="100" r="72" fill="none"
+              stroke="#0B2545" stroke-width="42" stroke-linecap="butt"
+              stroke-dasharray="135.72 316.67"/>
+      <circle cx="100" cy="100" r="72" fill="none"
+              stroke="#FFC300" stroke-width="42" stroke-linecap="butt"
+              stroke-dasharray="316.67 135.72" stroke-dashoffset="-135.72"/>
+    </g>
+  </g>
+
+  <circle cx="100" cy="100" r="46" fill="#FFFFFF" opacity="0.14"/>
+
+</svg>
