@@ -1,14 +1,14 @@
-baseurl: '/'
+baseurl: 'https://AuthorshipIndicators.org'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'AI:M'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  mobile: "images/logo/aim-scorecard-mobile.svg"
+  mobile_height: "50px"
+  mobile_width: "50px"
+  desktop: "images/logo/aim-scorecard.svg"
+  desktop_height: "50px"
+  desktop_width: "50px"
 
 home: 
   limit_services: 6
@@ -19,6 +19,9 @@ collections:
     sort_by: weight
   team:
     output: true
+  scorecards:
+    output: true
+    sort_by: weight
 
 defaults:
   - scope:
@@ -31,6 +34,11 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "scorecards"
+    values:
+      layout: "scorecard"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
