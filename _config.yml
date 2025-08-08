@@ -1,4 +1,5 @@
-baseurl: 'https://AuthorshipIndicators.org'
+url: "https://authorshipindicators.org"
+baseurl: ""
 permalink: pretty
 title: 'AI:M'
 
